@@ -3,3 +3,5 @@ uvicorn
 fastapi
 jinja2
 openai
+sqlalchemy
+mysqlclient
