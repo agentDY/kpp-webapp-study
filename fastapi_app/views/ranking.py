@@ -10,7 +10,6 @@ router = APIRouter(
 
 templates = Jinja2Templates(directory="templates")
 
-
 @router.get("/ranking", response_class=HTMLResponse)
 async def ranking_page(request: Request):
     return templates.TemplateResponse(
